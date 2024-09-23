@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V3E</title>
+    <link rel="stylesheet" href="V3E.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--<link rel="stylesheet" href="Form1.css">  Font Awesome -->
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>V3E</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <!-- <li><a href="#components">Components</a></li>-->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="search-container">
+                <input type="text" placeholder="Search..." id="search-bar">
+                <button id="search-button">Search</button>
+            </div>
+            <!--<button id="login-button">Login</button>-->
+        </div>
+    </div>
+</header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to zone of V3E</h2>
+            <h3>Innovate Smart, Spend Less: Your One-Stop for all Projects!</h3>
+            <button onclick="scrollToSection('projects')">Explore Projects</button>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Available Projects</h2>
+            <div class="project-list">
+                <!-- Existing project items here -->
+                <div class="project">
+                    <img src="img/Voice-Controlled-Home-Automation-Using-Arduino-Circuit.jpg" alt="Autonomous Fire Fighting Robot" >                    
+                    <h3>Voice Controlled Home Automation</h3>
+                    <p>Control home appliances with voice commands using an Android app and Arduino, making automation easy and efficient.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Weather monitering device using temperature and pressure sensors.jpg" alt="">
+                    <h3>Weather monitering device using temperature and pressure sensors</h3>
+                    <p>This system uses advanced sensors to collect weather and environmental data, which is then sent to a web server for easy monitoring.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Calculator.jpg" alt="Project 2">
+                    <h3>Arduino Calculator</h3>
+                    <p>By the end of this project, you'll learn to use a 16x2 LCD, a keypad with Arduino, and easily program them using available libraries.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/air-quality-monitoring.jpg" alt="Project 2">
+                    <h3>Air Quality Monitering system</h3>
+                    <p>Monitor air quality effortlessly with a DIY Arduino-based system using an MQ135 sensor, perfect for ensuring a healthier environment.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Medicine-Reminder-Using-Arduino.jpg" alt="Project 2">
+                    <h3>Smart Medicine Reminder</h3>
+                    <p>Smart Medicine Reminder using Arduino ensures patients take their medicines on time with customizable alerts, like buzzers, displays, or notifications, making it ideal for home or hospital use.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Soil Mositure.jpg" alt="Project 2">
+                    <h3>Soil Moisture</h3>
+                    <p>Learn how to use soil moisture sensors with Arduino, from basics to hands-on demo, perfect for understanding and applying this technology.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Electronic dice.jpg" alt="Project 2">
+                    <h3>Electronic Dice</h3>
+                    <p>Tap the Touch Sensor, and the Arduino generates a random number between 1 and 6, displaying it instantly.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Bidirectional counter.jpg" alt="Project 2">
+                    <h3>Bidirectional Counter</h3>
+                    <p>A bidirectional visitor counter with automatic light control using Arduino, which tracks people entering and exiting a space and controls lights based on occupancy.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Smart stick for blind 1.jpg" alt="Project 2">
+                    <h3>Smart Stick For Blind</h3>
+                    <p>A Smart Blind Stick using Arduino and an ultrasonic sensor to help navigate obstacles, offering a practical solution for the visually impaired.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Fire detector.jpg" alt="Project 2">
+                    <h3>Fire Detector</h3>
+                    <p>Build a fire alarm system using Arduino Uno to protect buildings from fire hazards caused by electrical issues and gas leaks.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Human following robot.jpg" alt="Project 2">
+                    <h3>Human Following Robot</h3>
+                    <p>This robot uses sensors and Arduino Uno to follow objects, smoothly navigate obstacles, and can enhance safety in vehicles by detecting and avoiding obstacles automatically.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/Smart door.jpg" alt="Project 2">
+                    <h3>Finger Print Door Unlock System</h3>
+                    <p>This Arduino-based fingerprint door lock opens automatically when a recognized fingerprint is detected, offering secure and convenient access.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <div class="project">
+                    <img src="img/ciunter using IR.jpg" alt="Project 2">
+                    <h3>Arduino Currency Counter using IR and Color Sensor</h3>
+                    <p>Count and calculate currency notes using an Arduino and a TCS230 color sensor, with results displayed on an LCD screen.</p>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </section>
+    <section id="project-note" class="note-section">
+        <div class="container">
+            <h2>Got an idea or a project in mind?</h2>
+            <p>Let us bring it to life! From concept to creation, we’ve got you covered.</p>
+            <p>Contact us for all the details, and let's make it happen!</p>
+            <button class="cta-button">Contact Us</button>
+        </div>
+    </section>
+    
+    <!--<section id="components" class="components">
+        <div class="container">
+            <h2>Available Components</h2>
+            <div class="component-list">
+                <div class="component">
+                    <img src="C:\Users\DELL\Downloads\component1.jpg" alt="Component 1">
+                    <h3>Resistor Kit</h3>
+                    <p>A complete resistor kit with various values for your electronic projects.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="component">
+                    <img src="C:\Users\DELL\Downloads\component2.jpg" alt="Component 2">
+                    <h3>Capacitor Set</h3>
+                    <p>High-quality capacitors of different values for your circuit designs.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="component">
+                    <img src="C:\Users\DELL\Downloads\component3.jpg" alt="Component 3">
+                    <h3>Arduino Uno</h3>
+                    <p>The versatile Arduino Uno microcontroller board for a wide range of projects.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="component">
+                    <img src="C:\Users\DELL\Downloads\component4.jpg" alt="Component 4">
+                    <h3>LED Assortment</h3>
+                    <p>An assortment of LEDs in various colors and sizes for your lighting needs.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="component">
+                    <img src="C:\Users\DELL\Downloads\component5.jpg" alt="Component 5">
+                    <h3>PCB Board</h3>
+                    <p>High-quality PCB board for prototyping and circuit assembly.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="component">
+                    <img src="C:\Users\DELL\Downloads\component6.jpg" alt="Component 6">
+                    <h3>Battery Holder</h3>
+                    <p>A reliable battery holder compatible with various battery sizes.</p>
+                    <button>Buy Now</button>
+                </div>
+                Add more components as needed
+            </div>
+        </div>
+    </section> -->
+    
+    <section id="contact" class="contact">
+    <div class="container">
+            <h2>Contact Us</h2>
+            <!--<form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form> -->
+            
+            <!-- Add Contact Details 
+            <div class="contact-info">
+                <p>Email: <a href="mailto:support@v3e.com">support@v3e.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+123-456-7890</a></p>
+            </div>
+        </div>
+    </section> -->
+    <div class="contact-info">
+        <!--<h3>Contact Us</h3>-->
+        <p>We'd love to hear from you! Reach us through the following contact information:</p>
+        <div class="contact-item">
+            <!-- <i class="fas fa-envelope"></i> Mail icon -->
+            <span class="material-symbols-outlined">
+                drafts
+                </span>
+            <p>Email: <a href="mailto:innovativev3e@gmail.com">innovativev3e@gmail.com</a></p>
+        </div>
+        
+        <div class="contact-item">
+            <!-- <i class="fas fa-phone-alt"></i> Phone icon -->
+            <span class="material-symbols-outlined">
+                contacts
+                </span>
+            <p>Phone: <a href="tel:+91 9381204253">+91 9381204253</a></p>
+        </div>
+        
+        
+        
+        <button id="contact-btn" class="contact-button">Click to Copy Contact Info</button>
+        <p id="copy-message" style="display:none;">Contact info copied to clipboard!</p>
+        
+
+    <!--<section id="login" class="login">
+        <div class="container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>-->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 V3E. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="react1.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V3E</title>
+    <link rel="stylesheet" href="first css.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>V3E</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Componets">Componets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Zone of Projects</h2>
+            <p>Your one-stop platform for student projects</p>
+            <button onclick="scrollToSection('projects')">Explore Projects</button>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Available Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\smart-home-automation-security-system-using-arduino-pir-sensor-and-camera-with-sms-alert.jpg" alt="Autonomous Fire Fighting Robot">
+                    <h3>Voice Controlled Home Automation</h3>
+                    <p>Control home appliances with voice commands using an Android app and Arduino, making automation easy and efficient.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Weather monitering device using temperature and pressure sensors.jpg" alt="Project 2">
+                    <h3>Weather monitering device using temperature and pressure sensors</h3>
+                    <p>This system uses advanced sensors to collect weather and environmental data, which is then sent to a web server for easy monitoring.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Calculator.jpg" alt="Project 2">
+                    <h3>Arduino Calculator</h3>
+                    <p>By the end of this project, you'll learn to use a 16x2 LCD, a keypad with Arduino, and easily program them using available libraries.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\air-quality-monitoring.jpg" alt="Project 2">
+                    <h3>Air Quality Monitering system</h3>
+                    <p>Monitor air quality effortlessly with a DIY Arduino-based system using an MQ135 sensor, perfect for ensuring a healthier environment.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Medicine-Reminder-Using-Arduino.jpg" alt="Project 2">
+                    <h3>Smart Medicine Reminder</h3>
+                    <p>Smart Medicine Reminder using Arduino ensures patients take their medicines on time with customizable alerts, like buzzers, displays, or notifications, making it ideal for home or hospital use.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Soil Mositure.jpg" alt="Project 2">
+                    <h3>Soil Moisture</h3>
+                    <p>Learn how to use soil moisture sensors with Arduino, from basics to hands-on demo, perfect for understanding and applying this technology.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Electronic dice.jpg" alt="Project 2">
+                    <h3>Electronic Dice</h3>
+                    <p>Tap the Touch Sensor, and the Arduino generates a random number between 1 and 6, displaying it instantly.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Bidirectional counter.jpg" alt="Project 2">
+                    <h3>Bidirectional Counter</h3>
+                    <p>A bidirectional visitor counter with automatic light control using Arduino, which tracks people entering and exiting a space and controls lights based on occupancy.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Smart stick for blind.jpg" alt="Project 2">
+                    <h3>Smart Stick For Blind</h3>
+                    <p>A Smart Blind Stick using Arduino and an ultrasonic sensor to help navigate obstacles, offering a practical solution for the visually impaired.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Fire detector.jpg" alt="Project 2">
+                    <h3>Fire Detector</h3>
+                    <p>Build a fire alarm system using Arduino Uno to protect buildings from fire hazards caused by electrical issues and gas leaks.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Human following robot.jpg" alt="Project 2">
+                    <h3>Human Following Robot</h3>
+                    <p>This robot uses sensors and Arduino Uno to follow objects, smoothly navigate obstacles, and can enhance safety in vehicles by detecting and avoiding obstacles automatically.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Smart door.jpg" alt="Project 2">
+                    <h3>Finger Print Door Unlock System</h3>
+                    <p>This Arduino-based fingerprint door lock opens automatically when a recognized fingerprint is detected, offering secure and convenient access.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\DELL\Downloads\Arduino-Money-Counter.jpg" alt="Project 2">
+                    <h3>Arduino Currency Counter using IR and Color Sensor</h3>
+                    <p>Count and calculate currency notes using an Arduino and a TCS230 color sensor, with results displayed on an LCD screen.</p>
+                    <button>Buy Now</button>
+                </div>
+                
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 V3E. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="react.js"></script>
+</body>
+</html>
